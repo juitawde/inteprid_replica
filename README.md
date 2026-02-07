@@ -93,6 +93,7 @@ It is created **strictly for educational and learning purposes**.
 ## 📄 Reference:
 
 This website is inspired from Inteprid and is basically a replica of Inteprid with some layout changes.
+Here is the link of the original website: https://www.intrepidtravel.com/en
 
 ---
 
