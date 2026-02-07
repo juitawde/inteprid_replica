@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Intrepid Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">I</div>
+                Intrepid
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="destinations.html" class="dropdown-toggle">Destinations</a>
+                    <div class="dropdown-menu">
+                        <a href="destinations.html#africa">Africa</a>
+                        <a href="destinations.html#asia">Asia</a>
+                        <a href="destinations.html#europe">Europe</a>
+                        <a href="destinations.html#americas">Americas</a>
+                        <a href="destinations.html#oceania">Oceania</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="ways-to-travel.html" class="dropdown-toggle">Ways to Travel</a>
+                    <div class="dropdown-menu">
+                        <a href="ways-to-travel.html#adventure">Adventure</a>
+                        <a href="ways-to-travel.html#family">Family</a>
+                        <a href="ways-to-travel.html#food">Food & Culture</a>
+                        <a href="ways-to-travel.html#walking">Walking & Hiking</a>
+                        <a href="ways-to-travel.html#polar">Polar</a>
+                    </div>
+                </li>
+                <li><a href="deals.html">Deals</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We're here to help! Get in touch with our travel experts</p>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="section">
+        <div class="contact-info-grid">
+            <div class="contact-info-card">
+                <div class="contact-icon">
+                    <span>📍</span>
+                </div>
+                <h3>Visit Our Office</h3>
+                <p>Level 9, 190-194 Collins Street</p>
+                <p>Melbourne, VIC 3000</p>
+                <p>Australia</p>
+            </div>
+            <div class="contact-info-card">
+                <div class="contact-icon">
+                    <span>📞</span>
+                </div>
+                <h3>Call Us</h3>
+                <p>Australia: 1800 234 567</p>
+                <p>UK: +44 20 7123 4567</p>
+                <p>USA: +1 800 123 4567</p>
+            </div>
+            <div class="contact-info-card">
+                <div class="contact-icon">
+                    <span>✉️</span>
+                </div>
+                <h3>Email Us</h3>
+                <p>General: info@intrepidtravel.com</p>
+                <p>Bookings: bookings@intrepidtravel.com</p>
+                <p>Support: support@intrepidtravel.com</p>
+            </div>
+            <div class="contact-info-card">
+                <div class="contact-icon">
+                    <span>🕐</span>
+                </div>
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                <p>Saturday: 10:00 AM - 4:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map Section -->
+    <section class="section bg-light">
+        <div class="contact-grid">
+            <div class="contact-form-section">
+                <h2>Send Us a Message</h2>
+                <p>Fill out the form below and we'll get back to you within 24 hours</p>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="booking">Booking Inquiry</option>
+                            <option value="existing">Existing Booking</option>
+                            <option value="quote">Request a Quote</option>
+                            <option value="group">Group Travel</option>
+                            <option value="corporate">Corporate Events</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your travel plans or questions..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="map-section">
+                <h2>Find Us</h2>
+                <p>Visit our Melbourne headquarters</p>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-marker">
+                            <span>📍</span>
+                        </div>
+                        <p>Melbourne, Australia</p>
+                        <p class="map-address">190-194 Collins Street, Melbourne VIC 3000</p>
+                    </div>
+                </div>
+                <div class="global-offices">
+                    <h3>Global Offices</h3>
+                    <div class="office-list">
+                        <div class="office-item">
+                            <strong>🇦🇺 Melbourne</strong>
+                            <p>Global Headquarters</p>
+                        </div>
+                        <div class="office-item">
+                            <strong>🇬🇧 London</strong>
+                            <p>Europe Office</p>
+                        </div>
+                        <div class="office-item">
+                            <strong>🇺🇸 Denver</strong>
+                            <p>Americas Office</p>
+                        </div>
+                        <div class="office-item">
+                            <strong>🇳🇿 Auckland</strong>
+                            <p>Pacific Office</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers to common questions</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I book a trip?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>You can book online through our website, call us directly, or visit one of our offices. Browse our tours, select your preferred dates, and follow the booking process. A deposit is required to secure your booking.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is included in the tour price?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Our tour prices include accommodation, local transport, most meals, entrance fees to attractions, and the services of a local leader. Flights to/from your destination and travel insurance are not included unless specified.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I travel solo?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! Many of our travelers solo, and our small group sizes make it easy to connect with fellow travelers. We offer no single supplements on selected departures for solo travelers.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is your cancellation policy?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Cancellation fees vary by trip. Generally, 60+ days before departure: full refund minus deposit. 30-59 days: 50% of tour price. Less than 30 days: no refund. We strongly recommend travel insurance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do I need travel insurance?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, travel insurance is mandatory for all our trips. It should cover medical expenses, emergency evacuation, trip cancellation, and personal belongings. Please provide us with your policy details before departure.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is the group size?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Our average group size is 12 travelers, with a maximum of 16. This ensures authentic experiences, lower environmental impact, and plenty of personal attention from your leader.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact Section -->
+    <section class="emergency-section">
+        <div class="emergency-content">
+            <h2>24/7 Emergency Contact</h2>
+            <p>If you're currently on a trip and need urgent assistance, our emergency line is always open.</p>
+            <div class="emergency-number">
+                <span>📞</span>
+                <div>
+                    <p class="emergency-label">Emergency Hotline</p>
+                    <p class="emergency-phone">+61 3 9455 1234</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Destinations</h3>
+                <ul>
+                    <li><a href="destinations.html#africa">Africa</a></li>
+                    <li><a href="destinations.html#asia">Asia</a></li>
+                    <li><a href="destinations.html#europe">Europe</a></li>
+                    <li><a href="destinations.html#americas">Americas</a></li>
+                    <li><a href="destinations.html#oceania">Oceania</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ways to Travel</h3>
+                <ul>
+                    <li><a href="ways-to-travel.html#adventure">Adventure</a></li>
+                    <li><a href="ways-to-travel.html#family">Family</a></li>
+                    <li><a href="ways-to-travel.html#food">Food & Culture</a></li>
+                    <li><a href="ways-to-travel.html#walking">Walking & Hiking</a></li>
+                    <li><a href="ways-to-travel.html#polar">Polar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Our Leaders</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Get exclusive deals and travel inspiration</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">in</a>
+                    <a href="#" aria-label="Twitter">X</a>
+                    <a href="#" aria-label="YouTube">▶</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Intrepid Travel. All rights reserved. | Privacy Policy | Terms & Conditions</p>
+        </div>
+</footer>
+</body>
+</html>
+

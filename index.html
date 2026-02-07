@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intrepid Travel - Small Group Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">I</div>
+                Intrepid
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="destinations.html" class="dropdown-toggle">Destinations</a>
+                    <div class="dropdown-menu">
+                        <a href="destinations.html#africa">Africa</a>
+                        <a href="destinations.html#asia">Asia</a>
+                        <a href="destinations.html#europe">Europe</a>
+                        <a href="destinations.html#americas">Americas</a>
+                        <a href="destinations.html#oceania">Oceania</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="ways-to-travel.html" class="dropdown-toggle">Ways to Travel</a>
+                    <div class="dropdown-menu">
+                        <a href="ways-to-travel.html#adventure">Adventure</a>
+                        <a href="ways-to-travel.html#family">Family</a>
+                        <a href="ways-to-travel.html#food">Food & Culture</a>
+                        <a href="ways-to-travel.html#walking">Walking & Hiking</a>
+                        <a href="ways-to-travel.html#polar">Polar</a>
+                    </div>
+                </li>
+<li><a href="deals.html">Deals</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Adventure Background -->
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1616431505321-8adf35f76a58?q=80&w=2182&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center; min-height: 750px; background-attachment: fixed;">
+        <div style="background: rgba(0,0,0,0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+        <div class="hero-content" style="position: relative; z-index: 1;">
+            <h1>Travel That Changed Everything</h1>
+            <p>Small group adventures, local leaders, and authentic experiences. Join us and discover the real world.</p>
+            <br>
+            <br>
+            <br>
+            <a href="destinations.html" class="hero-btn">Explore Adventures</a>
+        </div>
+    </section>
+
+    <!-- Featured Destinations Section -->
+    <section class="section featured-section">
+        <div class="section-title">
+            <h2>Featured Destinations</h2>
+            <p>Explore our most popular destinations around the world</p>
+        </div>
+        <div class="featured-grid">
+            <div class="featured-card">
+                <div class="featured-card-bg" style="background-image: url('https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&h=600&fit=crop'); background-size: cover; background-position: center;">
+                    <div style="background: rgba(49, 49, 49, 0.4); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 30px; text-align: center;">
+                    </div>
+                </div>
+                <div class="featured-card-content">
+                    <h3>Machu Picchu & Beyond</h3>
+                    <p>Discover ancient Inca trails and vibrant culture</p>
+                    <a href="destinations.html#americas" class="btn btn-primary" style="margin-top: 20px; width: 80%;">Explore Peru</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <div class="featured-card-bg" style="background-image: url('https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&h=600&fit=crop'); background-size: cover; background-position: center;">
+                    <div style="background: rgba(49, 49, 49, 0.4); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 30px; text-align: center;">
+                    </div>
+                </div>
+                <div class="featured-card-content">
+                    <h3>Temples & Tropical Beaches</h3>
+                    <p>Experience the magic of Southeast Asia</p>
+                    <a href="destinations.html#asia" class="btn btn-primary" style="margin-top: 20px; width: 80%;">Explore Thailand</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <div class="featured-card-bg" style="background-image: url('https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center;">
+                    <div style="background: rgba(49, 49, 49, 0.4); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 30px; text-align: center;">
+                    </div>
+                </div>
+                <div class="featured-card-content">
+                    <h3>Colors of India</h3>
+                    <p>A sensory journey through incredible landscapes</p>
+                    <a href="destinations.html#asia" class="btn btn-primary" style="margin-top: 20px; width: 80%;">Explore India</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tours Section -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Popular Tours</h2>
+            <p>Our most loved adventures, tried and tested by travelers</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1665849865197-6b4f0d1206e1?q=80&w=1560&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Classic Nepal - Himalayan mountains with prayer flags" class="card-img">
+                <div class="card-content">
+                    <h3>Classic Nepal</h3>
+                    <p>11 days - Kathmandu, Pokhara & Chitwan National Park</p>
+                    <a href=# class="btn btn-primary" style="margin-top: 20px; width: 80%;">View Tour</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=400&h=300&fit=crop" alt="Best of Vietnam - Ha Long Bay with traditional boats" class="card-img">
+                <div class="card-content">
+                    <h3>Best of Vietnam</h3>
+                    <p>15 days - Hanoi, Halong Bay, Ho Chi Minh City & Mekong Delta</p>
+                    <a href=# class="btn btn-primary" style="margin-top: 20px; width: 80%;">View Tour</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400&h=300&fit=crop" alt="Japan Express - Mount Fuji with cherry blossoms" class="card-img">
+                <div class="card-content">
+                    <h3>Japan Express</h3>
+                    <p>9 days - Tokyo, Mount Fuji, Kyoto & Osaka</p>
+                    <a href=# class="btn btn-primary" style="margin-top: 20px; width: 80%;">View Tour</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop" alt="Safari & Coast - African savanna wildlife" class="card-img">
+                <div class="card-content">
+                    <h3>Safari & Coast</h3>
+                    <p>10 days - Kenya's wildlife & Zanzibar beaches</p>
+                    <a href=# class="btn btn-primary" style="margin-top: 20px; width: 80%;">View Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section bg-light">
+        <div class="section-title">
+            <h2>Why Travel With Intrepid?</h2>
+            <p>We're the world's leading small group adventure travel company</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=400&h=300&fit=crop" alt="Small Groups - Diverse travelers exploring together" class="card-img">
+                <div class="card-content">
+                    <h3>Small Groups</h3>
+                    <p>Average of 12 travelers per group for authentic experiences and lower impact</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=400&h=300&fit=crop" alt="Local Leaders - Expert guide with local knowledge" class="card-img">
+                <div class="card-content">
+                    <h3>Local Leaders</h3>
+                    <p>Expert local guides who know the destination inside out</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1681987448179-4a93b7975018?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sustainable Travel - Eco-friendly nature landscape" class="card-img">
+                <div class="card-content">
+                    <h3>Sustainable Travel</h3>
+                    <p>Committed to responsible tourism and carbon offsetting</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" alt="Best Price Guarantee - Travel planning and savings" class="card-img">
+                <div class="card-content">
+                    <h3>Best Price Guarantee</h3>
+                    <p>No hidden fees, free flight booking service, 24/7 support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">35+</div>
+                <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">150+</div>
+                <div class="stat-label">Destinations</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100K+</div>
+                <div class="stat-label">Happy Travelers</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1M+</div>
+                <div class="stat-label">Tours Completed</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Styles Section -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Ways to Travel</h2>
+            <p>Find the perfect adventure style for your next trip</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=400&h=300&fit=crop" alt="Adventure - Mountain climbing and trekking" class="card-img">
+                <div class="card-content">
+                    <h3>Adventure</h3>
+                    <p>Push your limits with trekking, climbing, and expedition style travel</p>
+                    <a href="ways-to-travel.html#adventure" class="card-link">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603317581682-c3c3e3a3a588?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Family - Family vacation with kids exploring" class="card-img">
+                <div class="card-content">
+                    <h3>Family</h3>
+                    <p>Fun-filled adventures designed for families with kids of all ages</p>
+                    <a href="ways-to-travel.html#family" class="card-link">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop" alt="Food & Culture - Local cuisine and cooking" class="card-img">
+                <div class="card-content">
+                    <h3>Food & Culture</h3>
+                    <p>Immerse yourself in local cuisine and cultural experiences</p>
+                    <a href="ways-to-travel.html#food" class="card-link">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=300&fit=crop" alt="Walking & Hiking - Trail hiking in mountains" class="card-img">
+                <div class="card-content">
+                    <h3>Walking & Hiking</h3>
+                    <p>Explore on foot through stunning landscapes and trails</p>
+                    <a href="ways-to-travel.html#walking" class="card-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="section bg-light">
+        <div class="section-title">
+            <h2>Special Deals</h2>
+            <p>Don't miss out on our latest offers and early bird discounts</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop" alt="Early Bird Discount - Scenic travel landscape" class="card-img">
+                <div class="card-content">
+                    <h3>Early Bird Discount</h3>
+                    <p>Book 6+ months ahead and save up to 20% on select tours</p>
+                    <a href="deals.html" class="card-link">See Offers</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop" alt="Last Minute Deals - Tropical beach sunset" class="card-img">
+                <div class="card-content">
+                    <h3>Last Minute Deals</h3>
+                    <p>Amazing savings on tours departing in the next 8 weeks</p>
+                    <a href="deals.html" class="card-link">See Offers</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop" alt="Solo Traveler Deals - Solo traveler enjoying view" class="card-img">
+                <div class="card-content">
+                    <h3>Solo Traveler Deals</h3>
+                    <p>No single supplements on selected departures</p>
+                    <a href="deals.html" class="card-link">See Offers</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Destinations</h3>
+                <ul>
+                    <li><a href="destinations.html#africa">Africa</a></li>
+                    <li><a href="destinations.html#asia">Asia</a></li>
+                    <li><a href="destinations.html#europe">Europe</a></li>
+                    <li><a href="destinations.html#americas">Americas</a></li>
+                    <li><a href="destinations.html#oceania">Oceania</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ways to Travel</h3>
+                <ul>
+                    <li><a href="ways-to-travel.html#adventure">Adventure</a></li>
+                    <li><a href="ways-to-travel.html#family">Family</a></li>
+                    <li><a href="ways-to-travel.html#food">Food & Culture</a></li>
+                    <li><a href="ways-to-travel.html#walking">Walking & Hiking</a></li>
+                    <li><a href="ways-to-travel.html#polar">Polar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Our Leaders</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Get exclusive deals and travel inspiration</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">in</a>
+                    <a href="#" aria-label="Twitter">X</a>
+                    <a href="#" aria-label="YouTube">▶</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Intrepid Travel. All rights reserved. | Privacy Policy | Terms & Conditions</p>
+        </div>
+    </footer>
+</body>
+</html>
+
