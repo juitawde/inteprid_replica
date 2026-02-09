@@ -11,7 +11,7 @@ It is created **strictly for educational and learning purposes**.
 
 ## 🔗 Live Demo
 
-👉 https://guileless-moxie-014a70.netlify.app/
+👉 https://juitawde.github.io/inteprid_replica/
 
 ---
 
